@@ -17,6 +17,10 @@ La seguente guida ha lo scopo di aiutarvi a fare il deploy su heroku delle vostr
 - [heroku cli](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
 - [node (con npm)](https://nodejs.org/it/download/)
 
+
+## Facoltativi
+- [Postman](https://www.postman.com/) - utile per testare le vostri API
+
 assicuratevi di avere installato ogni comando provando ad eseguire lo stesso
 
 **ES:**
@@ -159,3 +163,4 @@ git push heroku master
 maggiori informazioni su questa parte, qui:
 
 [https://devcenter.heroku.com/articles/git#creating-a-heroku-remote](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
+
