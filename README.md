@@ -65,20 +65,8 @@ Creating progetto-awc-antongiacomo... done
 https://progetto-awc-antongiacomo.herokuapp.com/ | https://git.heroku.com/progetto-awc-antongiacomo.git
 
 ```
+
 prendete nota dell'url git ovvero, in questo caso: `https://git.heroku.com/progetto-awc-antongiacomo.git`
-
-----
-Recatevi nella cartella della vostra applicazione e create un file chiamato `Procfile`
-con all'interno il seguente contenuto:
-
-```
-web: node app.js
-```
-
-Il procfile serve ad istruire heroku su come trattare il vostro codice. Il tipo di processo `web` dice ad Heroku di far partire la vostra applicazione web lanciando `node app.js`. 
- >!! ovviamente dovrete sostituire ad `app.js` il nome della vostra applcazione web.
- 
- ---
 
 Maggiori informazioni su questa parte qui:
 
@@ -86,13 +74,18 @@ Maggiori informazioni su questa parte qui:
  
 
 ## Git 
-Innanzitutto recatevi con il terminale nella cartella in cui risiede il vosto codice. 
-All'interno di questa cartella inizializzate la repository git.
+Innanzitutto recatevi con il terminale in una cartella in cui avete regolari permessi di scrittura (e.g. la vostra home o il vostro desktop). 
+Poi:
+```
+git clone <url>
 
 ```
-git init
+l'url ovviamente è quella che abbiamo ottenuto nella fase precedente durante la creazione dell'app
 
-Initialized empty Git repository in /Users/antongiacomopolimeno/progretto_awc/.git/
+ES:
+```
+git clone https://git.heroku.com/progetto-awc-antongiacomo.git
+
 ```
 
 controllate la corretta inizializzazione lanciando il comando 
@@ -114,12 +107,29 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-aggiungete heroku remote
+----
+create un file chiamato `Procfile`
+con all'interno il seguente contenuto:
 
 ```
-git remote add heroku  https://git.heroku.com/progetto-awc-antongiacomo.git
+web: node app.js
 ```
-l'url ovviamente è quella che abbiamo ottenuto nella fase precedente durante la creazione dell'app
+
+
+> !! Fate attenzione che la prima lettera del file sia maiuscola è molto importante
+> !! Se l'avete creato con la lettere minuscola potrebbe non bastare un semplice commit
+> in quel caso
+>  - spostatelo fuori dalla cartella
+>  - date `git add .`
+>  - committate
+>  - copiate il file con la lettera maiuscola  dentro la cartella
+>  - date `git add .`
+>  - committate
+>  - pushate
+
+
+Il procfile serve ad istruire heroku su come trattare il vostro codice. Il tipo di processo `web` dice ad Heroku di far partire la vostra applicazione web lanciando `node app.js`. 
+ >!! ovviamente dovrete sostituire ad `app.js` il nome della vostra applcazione web.
 
 ----
 
@@ -137,7 +147,7 @@ git add <nome file>
 > 
 > Lo stesso vale per i nuovi file
 > 
-> vi consiglio di fare un `git add .` prima di ogni commit push
+> vi consiglio di fare un `git add .` prima di ogni commit -> push
 
 
 committate e pushate
