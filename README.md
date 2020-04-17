@@ -78,21 +78,18 @@ Innanzitutto recatevi con il terminale in una cartella in cui avete regolari per
 Poi:
 ```
 git clone <url>
-
 ```
 l'url ovviamente è quella che abbiamo ottenuto nella fase precedente durante la creazione dell'app
 
 ES:
 ```
 git clone https://git.heroku.com/progetto-awc-antongiacomo.git
-
 ```
 
 controllate la corretta inizializzazione lanciando il comando 
 
 ```
 git status
-
 ```
 che dovrebbe darvi in output qualcosa del genere:
 
