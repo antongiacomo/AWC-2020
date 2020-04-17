@@ -18,8 +18,6 @@ La seguente guida ha lo scopo di aiutarvi a fare il deploy su heroku delle vostr
 - [node (con npm)](https://nodejs.org/it/download/)
 
 
-## Facoltativi
-- [Postman](https://www.postman.com/) - utile per testare le vostri API
 
 assicuratevi di avere installato ogni comando provando ad eseguire lo stesso
 
@@ -41,7 +39,8 @@ start a working area (see also: git help tutorial)
 .
 .
 ```
-
+## Facoltativi
+- [Postman](https://www.postman.com/) - utile per testare le vostri API
 # Heroku
 prima di creare la vostra app su heroku,
 assicuratevi di aver eseguito:
@@ -164,3 +163,7 @@ maggiori informazioni su questa parte, qui:
 
 [https://devcenter.heroku.com/articles/git#creating-a-heroku-remote](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
 
+# Postman
+[Postman](https://www.postman.com/) vi sarà utile  utile per testare le vostri API. Per utilizzarlo con il codice fornito vi consiglio impostazioni simili a queste 
+
+![](https://raw.githubusercontent.com/antongiacomo/AWC-2020/master/postman.png)
