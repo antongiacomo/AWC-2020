@@ -7,6 +7,9 @@ La seguente guida ha lo scopo di aiutarvi a fare il deploy su heroku delle vostr
 > La Guida è pensata per l'utilizzo in un ambiente UNIX la maggior parte delle operazioni dovrebbero funzionare comunque su una macchina windows correttamente configurata. Nelle risorse linkate sono disponibili tutti i software anche per windows.
 
 >Ricordate che Google è vostro amico!
+
+## Demo deployato su heroku del codice in questa repo
+[https://progetto-awc-antongiacomo.herokuapp.com/](https://progetto-awc-antongiacomo.herokuapp.com/)
 ## Strumenti necessari
 
 - un account [heroku](https://signup.heroku.com/login)
