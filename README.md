@@ -38,7 +38,7 @@ start a working area (see also: git help tutorial)
 .
 ```
 
-# heroku
+# Heroku
 prima di creare la vostra app su heroku,
 assicuratevi di aver eseguito:
 
