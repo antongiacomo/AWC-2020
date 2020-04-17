@@ -137,7 +137,7 @@ git add <nome file>
 > 
 > Lo stesso vale per i nuovi file
 > 
-> vi consiglio di fare un `git add .` prima di ogni commit push
+> vi consiglio di fare un `git add .` prima di ogni commit -> push
 
 
 committate e pushate
