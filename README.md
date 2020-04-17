@@ -75,7 +75,7 @@ con all'interno il seguente contenuto:
 web: node app.js
 ```
 
-Il prof file serve ad istruire heroku su come trattare il vostro codice. Il tipo di processo `web` dice ad Heroku di far partire la vostra applicazione web lanciando `node app.js`. 
+Il procfile serve ad istruire heroku su come trattare il vostro codice. Il tipo di processo `web` dice ad Heroku di far partire la vostra applicazione web lanciando `node app.js`. 
  >!! ovviamente dovrete sostituire ad `app.js` il nome della vostra applcazione web.
  
  ---
@@ -138,6 +138,8 @@ git add <nome file>
 > Lo stesso vale per i nuovi file
 > 
 > vi consiglio di fare un `git add .` prima di ogni commit push
+
+
 committate e pushate
 
 ```
@@ -147,6 +149,6 @@ git push heroku master
 
 ---
 
-maggiori informazioni su questa parte qui:
+maggiori informazioni su questa parte, qui:
 
 [https://devcenter.heroku.com/articles/git#creating-a-heroku-remote](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
