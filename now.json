@@ -15,6 +15,6 @@
         "dest": "/app.js"
     }],
     "env": {
-        "VERSION": "@version"
+        "VERSION": "1"
     }
 }
